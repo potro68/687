@@ -474,6 +474,21 @@
 .italy-caption{font-size:9.5px;color:rgba(255,255,255,.7);padding:8px 6px 3px;text-align:center;font-weight:600}
 @media(max-width:920px){.italy-emotion{grid-template-columns:1fr}.italy-phone-pair{max-width:620px;margin:0 auto}.italy-shot-wrap:nth-child(2){transform:none}}
 @media(max-width:620px){.italy-phone-pair{gap:10px}.italy-shot-wrap{border-radius:18px;padding:5px}.italy-shot-wrap img{border-radius:14px}.italy-caption{font-size:8px}}
+
+    /* Compact 687 country app icons */
+    .network-section{padding:38px 0 34px;background:#fff;border-bottom:1px solid var(--line)}
+    .network-head{text-align:center;margin-bottom:18px}
+    .network-head h2{font-family:"Fraunces",serif;font-size:clamp(25px,3vw,34px);line-height:1.08;margin:7px 0 6px}
+    .network-head p{max-width:760px;margin:0 auto;color:var(--muted);font-size:12.5px}
+    .network-grid{display:flex;justify-content:center;align-items:flex-start;gap:18px;flex-wrap:wrap}
+    .network-card{width:92px;text-align:center}
+    .network-app-icon{position:relative;width:58px;height:58px;margin:0 auto 7px;border-radius:14px;background:linear-gradient(145deg,#082D40,#123F57);border:1px solid rgba(244,185,62,.55);box-shadow:0 8px 18px rgba(14,59,82,.13);display:grid;place-items:center;color:#F4B93E;font-family:"Sora",sans-serif;font-size:18px;font-weight:800;letter-spacing:-.7px}
+    .network-card.active .network-app-icon{box-shadow:0 0 0 2px rgba(244,185,62,.18),0 8px 18px rgba(14,59,82,.15)}
+    .network-flag{position:absolute;right:-5px;bottom:-5px;width:24px;height:24px;border-radius:50%;background:#fff;display:grid;place-items:center;font-size:15px;box-shadow:0 3px 8px rgba(0,0,0,.14);border:2px solid #fff}
+    .network-name{font-weight:700;font-size:11px;line-height:1.25;color:var(--ink)}
+    .network-status{font-size:8.5px;color:var(--muted);margin-top:2px}
+    @media(max-width:620px){.network-grid{gap:12px}.network-card{width:70px}.network-app-icon{width:48px;height:48px;border-radius:12px;font-size:15px}.network-flag{width:21px;height:21px;font-size:13px}.network-name{font-size:9.5px}.network-status{font-size:7.5px}}
+
 </style>
 
   <script type="application/ld+json">
@@ -537,11 +552,11 @@
         </div>
       </div>
       <div class="network-grid" aria-label="687 country editions">
-        <div class="network-card active"><span class="network-code">IT</span><div class="network-name">687 Italy</div></div>
-        <div class="network-card"><span class="network-code">ES</span><div class="network-name">687 Spain</div></div>
-        <div class="network-card"><span class="network-code">FR</span><div class="network-name">687 France</div></div>
-        <div class="network-card"><span class="network-code">JP</span><div class="network-name">687 Japan</div></div>
-        <div class="network-card"><span class="network-code">TH</span><div class="network-name">687 Thailand</div></div>
+        <div class="network-card active"><div class="network-app-icon">687<span class="network-flag">🇮🇹</span></div><div class="network-name">687 Italy</div><div class="network-status">First release</div></div>
+        <div class="network-card"><div class="network-app-icon">687<span class="network-flag">🇪🇸</span></div><div class="network-name">687 Spain</div><div class="network-status">Planned</div></div>
+        <div class="network-card"><div class="network-app-icon">687<span class="network-flag">🇫🇷</span></div><div class="network-name">687 France</div><div class="network-status">Planned</div></div>
+        <div class="network-card"><div class="network-app-icon">687<span class="network-flag">🇯🇵</span></div><div class="network-name">687 Japan</div><div class="network-status">Planned</div></div>
+        <div class="network-card"><div class="network-app-icon">687<span class="network-flag">🇹🇭</span></div><div class="network-name">687 Thailand</div><div class="network-status">Planned</div></div>
       </div>
     </div>
   </section>
