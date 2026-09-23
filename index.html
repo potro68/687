@@ -524,6 +524,75 @@
   .hero-products .mini-product-status{font-size:7px;}
 }
 </style>
+
+<style>
+/* Mobile 100% viewport polish — desktop unchanged */
+@media (max-width: 620px){
+  html,body{max-width:100%;overflow-x:hidden;}
+  *,*::before,*::after{box-sizing:border-box;}
+  img,svg,video,canvas{max-width:100%;height:auto;}
+  .container{width:calc(100% - 24px)!important;max-width:100%!important;margin-inline:auto!important;}
+  .nav{gap:10px;min-width:0;}
+  .brand-logo{min-width:0;gap:8px;}
+  .brand-logo .site-name{font-size:17px!important;white-space:nowrap;}
+  .nav-links{gap:8px;}
+  .nav-cta{font-size:10px!important;padding:8px 10px!important;white-space:nowrap;}
+
+  .hero{padding:48px 0 54px!important;}
+  .hero-grid{grid-template-columns:minmax(0,1fr)!important;gap:30px!important;}
+  .hero-grid>*{min-width:0;}
+  .hero h1{font-size:clamp(38px,11.5vw,48px)!important;line-height:1.01!important;letter-spacing:-1px!important;margin:14px 0 16px!important;}
+  .hero-copy{font-size:14px!important;line-height:1.6!important;max-width:100%!important;}
+  .hero-actions{gap:9px!important;margin-top:22px!important;}
+  .hero-actions .btn{width:100%!important;min-height:46px!important;font-size:13px!important;padding:0 14px!important;}
+  .hero-proof{gap:10px 14px!important;margin-top:20px!important;font-size:10.5px!important;}
+
+  /* Five products stay on one row and fit the phone at 100% zoom */
+  .hero-products{display:grid!important;grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:6px!important;width:100%!important;max-width:100%!important;margin:0 0 22px!important;padding:0!important;overflow:visible!important;}
+  .hero-products .mini-product{width:auto!important;min-width:0!important;}
+  .hero-products .mini-product-icon{width:52px!important;height:52px!important;max-width:100%!important;border-radius:13px!important;margin:0 auto 6px!important;}
+  .hero-products .mini-product-name{font-size:8.5px!important;line-height:1.08!important;white-space:normal!important;}
+  .hero-products .mini-product-status{font-size:6.7px!important;line-height:1.08!important;white-space:normal!important;margin-top:2px!important;}
+
+  .preview-shell,.real-phone{width:min(100%,360px)!important;max-width:100%!important;margin-inline:auto!important;transform:none!important;}
+  .real-badge{display:none!important;}
+
+  .section{padding:52px 0!important;}
+  .section h2,.italy-emotion-copy h2{font-size:clamp(30px,9.5vw,38px)!important;line-height:1.08!important;}
+  .final-cta h2{font-size:clamp(30px,9.5vw,38px)!important;}
+  .lead,.italy-emotion-copy p,.story-copy p{font-size:13.5px!important;line-height:1.62!important;}
+
+  .feature-grid,.dest-grid,.promo-points,.steps,.faq,.split,.app-promo,.italy-emotion,.story,.story:nth-child(even){grid-template-columns:minmax(0,1fr)!important;gap:22px!important;}
+  .story:nth-child(even) .story-copy,.story:nth-child(even) .story-visual{order:initial!important;}
+  .story-visual{padding:12px!important;border-radius:20px!important;min-height:0!important;}
+  .shot{width:min(100%,315px)!important;max-height:none!important;}
+  .italy-phone-pair{grid-template-columns:1fr 1fr!important;gap:8px!important;}
+  .italy-phone-pair>*{min-width:0!important;}
+
+  .jp-gallery{grid-template-columns:1fr 1fr!important;gap:10px!important;}
+  .jp-shot{min-width:0!important;padding:9px!important;border-radius:15px!important;}
+  .jp-shot h3{font-size:.82rem!important;}
+  .jp-shot p{font-size:.72rem!important;}
+  .jp-seven{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:8px!important;}
+  .jp-intelligent{padding:15px!important;}
+
+  .footer{display:block!important;text-align:center!important;}
+  .footer a{display:inline-block;margin:4px 6px!important;}
+}
+@media (max-width: 390px){
+  .container{width:calc(100% - 20px)!important;}
+  .brand-logo img{width:36px!important;height:36px!important;}
+  .brand-logo .site-name{font-size:15px!important;}
+  .nav-cta{font-size:9px!important;padding:7px 8px!important;}
+  .hero-products{gap:4px!important;}
+  .hero-products .mini-product-icon{width:46px!important;height:46px!important;}
+  .hero-products .mini-product-name{font-size:7.6px!important;}
+  .hero-products .mini-product-status{font-size:6.1px!important;}
+  .jp-gallery{grid-template-columns:1fr!important;}
+  .jp-shot{max-width:320px!important;margin-inline:auto!important;width:100%!important;}
+}
+</style>
+
 </head>
 <body>
 <nav aria-label="Main navigation" class="nav-wrap">
