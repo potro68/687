@@ -34,3 +34,12 @@ img{max-width:100%;height:auto}
 .site-nav .nav-cta{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.28);color:#fff!important}
 .site-nav .dropdown{background:rgba(255,255,255,.98)}
 @media(max-width:900px){.site-nav .nav-links{background:rgba(7,22,32,.96)}.site-nav .nav-links a,.site-nav .products-menu>button{color:#fff}}
+
+
+/* Clearer header image */
+.hero.hero-travel{background:linear-gradient(180deg,rgba(10,37,54,.46),rgba(10,38,54,.38)), url("assets/hero-travel-bg.webp") center center/cover no-repeat;min-height:780px}
+.hero.hero-travel::before{background:linear-gradient(90deg,rgba(7,22,32,.34) 0%,rgba(7,22,32,.16) 42%,rgba(7,22,32,.08) 100%)}
+.hero.hero-travel .hero-copy{text-shadow:0 4px 16px rgba(0,0,0,.20)}
+.hero.hero-travel .lead,.hero.hero-travel .hero-sub,.hero.hero-travel .trust-row{color:rgba(255,255,255,.96)}
+.hero.hero-travel .hero-visual figure{background:rgba(255,255,255,.95)}
+@media(max-width:900px){.hero.hero-travel{background:linear-gradient(180deg,rgba(10,37,54,.38),rgba(10,38,54,.28)), url("assets/hero-travel-bg.webp") center center/cover no-repeat;min-height:auto}.hero.hero-travel::before{background:linear-gradient(180deg,rgba(7,22,32,.34),rgba(7,22,32,.18))}}
