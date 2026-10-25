@@ -3,13 +3,13 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://go687.com/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <image:image><image:loc>https://go687.com/assets/hero-travel-bg.webp</image:loc></image:image>
     <image:image><image:loc>https://go687.com/assets/687-italy-showcase.webp</image:loc></image:image>
     <image:image><image:loc>https://go687.com/assets/687-japan-showcase.webp</image:loc></image:image>
   </url>
   <url><loc>https://go687.com/products/italy.html</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://go687.com/products/japan.html</loc><lastmod>2026-10-16</lastmod></url>
+  <url><loc>https://go687.com/products/japan.html</loc><lastmod>2026-10-25</lastmod></url>
   <url><loc>https://go687.com/resources.html</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://go687.com/support.html</loc></url>
   <url><loc>https://go687.com/privacy.html</loc></url>
