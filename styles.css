@@ -86,3 +86,15 @@ img{max-width:100%;height:auto}
 @media(max-width:900px){.home-hero{background:linear-gradient(180deg,rgba(6,24,38,.62),rgba(8,32,48,.50)),url("assets/hero-travel-bg-800.webp") center/cover no-repeat!important}}
 @media(min-width:1400px){.home-hero{background-image:linear-gradient(180deg,rgba(6,24,38,.62),rgba(8,32,48,.50)),url("assets/hero-travel-bg.webp")!important}}
 .site-nav{background:linear-gradient(180deg,rgba(7,22,32,.80),rgba(7,22,32,.58))!important;backdrop-filter:blur(14px)!important;-webkit-backdrop-filter:blur(14px)!important}
+
+/* ===== POLISH 10/11 ===== */
+.flag-svg{display:inline-block;vertical-align:-2px;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,.12);margin-right:4px}
+.dest .flag .flag-svg{width:42px;height:28px;border-radius:4px}
+.gcard,.guide-card{overflow:hidden;transition:transform .15s,box-shadow .15s}
+.gcard:hover,.guide-card:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(10,40,60,.14)}
+.card-thumb{display:block;width:calc(100% + 40px);max-width:none;height:150px;object-fit:cover;margin:-20px -20px 10px}
+.guide-card .card-thumb{width:calc(100% + 48px);margin:-24px -24px 12px}
+.dest{background:rgba(5,20,32,.72)!important;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.18)!important}
+.dest strong,.dest span,.dest em{color:#fff!important}.dest span{opacity:.9}.dest em{color:#ffd777!important}
+.footer-brand{display:flex;align-items:center;gap:10px;font-family:Sora,sans-serif;font-weight:800;font-size:18px;color:#fff}
+.footer-brand img{width:44px;height:44px;border-radius:50%}.footer-brand b{color:#3fd6e6}
