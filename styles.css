@@ -45,3 +45,39 @@ img{max-width:100%;height:auto}
 @media(max-width:900px){.hero.hero-travel{background:linear-gradient(180deg,rgba(10,37,54,.38),rgba(10,38,54,.28)), url("assets/hero-travel-bg-800.webp") center center/cover no-repeat;min-height:auto}.hero.hero-travel::before{background:linear-gradient(180deg,rgba(7,22,32,.34),rgba(7,22,32,.18))}}
 
 @media(min-width:1400px){.hero.hero-travel{background-image:linear-gradient(180deg,rgba(10,37,54,.46),rgba(10,38,54,.38)),url("assets/hero-travel-bg.webp")}}
+
+/* ===== NAV v2 (10/11/2026) ===== */
+.site-nav{background:#071a2e!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;border-bottom:1px solid rgba(255,255,255,.08);box-shadow:0 6px 24px rgba(4,14,26,.25)}
+.site-nav::after{display:none!important}
+.site-nav .nav-inner{min-height:72px;gap:24px}
+.brand-logo{width:46px;height:46px;border-radius:50%;display:block;flex:0 0 auto}
+.site-nav .brand{gap:11px;color:#fff;font-family:Sora,sans-serif;font-size:19px;font-weight:800;letter-spacing:.2px;line-height:1.05}
+.site-nav .brand b{color:#3fd6e6;font-weight:800}
+.site-nav .brand small{font-size:10.5px;font-weight:600;letter-spacing:1.6px;text-transform:uppercase;color:rgba(255,255,255,.62);margin-top:3px}
+.site-nav .nav-links{gap:4px;align-items:center}
+.site-nav .nav-links>a,.site-nav .products-menu>button{color:rgba(255,255,255,.88);font-size:15px;font-weight:600;padding:9px 13px;border-radius:10px;text-decoration:none;transition:background .15s,color .15s}
+.site-nav .nav-links>a:hover,.site-nav .products-menu>button:hover{background:rgba(255,255,255,.08);color:#fff}
+.site-nav .nav-links>a.active{color:#fff}
+.site-nav .products-menu>button .chev{font-size:11px;opacity:.7;margin-left:3px}
+.site-nav .dropdown{top:44px;left:0;min-width:200px;background:#fff;border-radius:14px;padding:6px}
+.site-nav .dropdown a{color:var(--ink);font-weight:600;font-size:14.5px}
+.site-nav .lang-menu{margin-left:6px}
+.site-nav .lang-menu>button{border:1px solid rgba(255,255,255,.22)!important;padding:8px 12px!important;font-size:13.5px!important;letter-spacing:.5px}
+.site-nav .lang-menu .dropdown{left:auto;right:0;min-width:160px}
+.site-nav .lang-menu .dropdown a.current{background:var(--sky2);font-weight:800}
+.site-nav .nav-cta{background:linear-gradient(135deg,#25c6dc,#1f7fe0)!important;border:0!important;color:#fff!important;font-weight:800!important;padding:10px 18px!important;border-radius:999px!important;margin-left:8px;box-shadow:0 6px 18px rgba(31,127,224,.35)}
+.site-nav .nav-cta:hover{filter:brightness(1.08)}
+@media(max-width:900px){
+.site-nav .nav-inner{min-height:64px}
+.brand-logo{width:40px;height:40px}.site-nav .brand{font-size:17px}
+.site-nav .nav-links{background:#071a2e!important;padding:14px 16px 20px;align-items:stretch}
+.site-nav .nav-links>a,.site-nav .products-menu>button{padding:12px 6px;width:100%;text-align:left}
+.site-nav .dropdown{background:transparent!important;padding:0 0 0 12px}
+.site-nav .dropdown a{color:rgba(255,255,255,.85)}
+.site-nav .lang-menu{margin:6px 0 0}.site-nav .lang-menu>button{width:auto!important}
+.site-nav .lang-menu .dropdown a.current{background:rgba(255,255,255,.1)}
+.site-nav .nav-cta{margin:12px 0 0;text-align:center}
+}
+.site-nav .menu-toggle{color:#fff!important;background:transparent!important;border:1px solid rgba(255,255,255,.22)!important;border-radius:10px}
+@media(max-width:900px){.site-nav .nav-links .dropdown a{color:rgba(255,255,255,.82)!important;opacity:1!important;padding:9px 8px}.site-nav .nav-links .dropdown a.current{color:#fff!important}}
+@media(max-width:900px){.site-nav .nav-links .products-menu .dropdown a,.site-nav .nav-links .products-menu .dropdown a:last-child{color:rgba(255,255,255,.82)!important;opacity:1!important;filter:none!important}}
