@@ -98,3 +98,14 @@ img{max-width:100%;height:auto}
 .dest strong,.dest span,.dest em{color:#fff!important}.dest span{opacity:.9}.dest em{color:#ffd777!important}
 .footer-brand{display:flex;align-items:center;gap:10px;font-family:Sora,sans-serif;font-weight:800;font-size:18px;color:#fff}
 .footer-brand img{width:44px;height:44px;border-radius:50%}.footer-brand b{color:#3fd6e6}
+
+/* 10/11 product pages */
+@media(max-width:700px){.dp-collapsed>*:nth-child(n+4){display:none}.dp-more{margin:10px 0 0;background:#fff;border:1px solid var(--line);border-radius:999px;padding:10px 16px;font:inherit;font-weight:700;font-size:14px;color:var(--navy);cursor:pointer}}
+@media(max-width:700px){
+.product-feature-grid,.feature-grid,#whats-new .container>div:not(.section-head){grid-template-columns:1fr 1fr!important;gap:10px!important}
+.product-feature,.feature-grid>div,#whats-new .container>div:not(.section-head)>*{padding:14px!important;border-radius:16px!important}
+.product-feature .feature-icon,.feature-grid .feature-icon{font-size:22px!important;width:auto!important;height:auto!important;margin-bottom:6px!important;background:none!important;box-shadow:none!important}
+.product-feature h3,.feature-grid h3,#whats-new h3{font-size:15px!important;line-height:1.25!important;margin:0 0 4px!important}
+.product-feature p,.feature-grid p,#whats-new p{font-size:12.5px!important;line-height:1.4!important;margin:0!important}
+}
+@media(max-width:700px){.benefit-grid{grid-template-columns:1fr 1fr!important;gap:10px!important}.benefit-card{padding:14px!important;border-radius:16px!important}.benefit-card strong{font-size:14.5px!important}.benefit-card>span{font-size:12.5px!important;line-height:1.4!important}}
