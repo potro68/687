@@ -81,3 +81,8 @@ img{max-width:100%;height:auto}
 .site-nav .menu-toggle{color:#fff!important;background:transparent!important;border:1px solid rgba(255,255,255,.22)!important;border-radius:10px}
 @media(max-width:900px){.site-nav .nav-links .dropdown a{color:rgba(255,255,255,.82)!important;opacity:1!important;padding:9px 8px}.site-nav .nav-links .dropdown a.current{color:#fff!important}}
 @media(max-width:900px){.site-nav .nav-links .products-menu .dropdown a,.site-nav .nav-links .products-menu .dropdown a:last-child{color:rgba(255,255,255,.82)!important;opacity:1!important;filter:none!important}}
+/* 10/11: foto di sfondo come prima */
+.home-hero{background:linear-gradient(180deg,rgba(6,24,38,.62),rgba(8,32,48,.50)),url("assets/hero-travel-bg-1280.webp") center/cover no-repeat!important}
+@media(max-width:900px){.home-hero{background:linear-gradient(180deg,rgba(6,24,38,.62),rgba(8,32,48,.50)),url("assets/hero-travel-bg-800.webp") center/cover no-repeat!important}}
+@media(min-width:1400px){.home-hero{background-image:linear-gradient(180deg,rgba(6,24,38,.62),rgba(8,32,48,.50)),url("assets/hero-travel-bg.webp")!important}}
+.site-nav{background:linear-gradient(180deg,rgba(7,22,32,.80),rgba(7,22,32,.58))!important;backdrop-filter:blur(14px)!important;-webkit-backdrop-filter:blur(14px)!important}
