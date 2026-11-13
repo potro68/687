@@ -1,0 +1,17 @@
+name: IndexNow
+on:
+  push:
+    branches: [main]
+    paths: ['sitemap.xml']
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Invia URL della sitemap a IndexNow (Bing, Yandex...)
+        run: |
+          sleep 60
+          URLS=$(grep -oP '(?<=<loc>)[^<]+' sitemap.xml | python3 -c "import sys,json;print(json.dumps([l.strip() for l in sys.stdin][:10000]))")
+          curl -sS -X POST https://api.indexnow.org/indexnow -H 'Content-Type: application/json; charset=utf-8' \
+            -d "{\"host\":\"go687.com\",\"key\":\"f953ca86b1a5471d871c9a79923be19b\",\"keyLocation\":\"https://go687.com/f953ca86b1a5471d871c9a79923be19b.txt\",\"urlList\":$URLS}" -w '\nHTTP %{http_code}\n'
