@@ -1,0 +1,46 @@
+# GO687 Travel
+
+> Independent, practical travel guides for Italy and Japan (English and Italian), written by Gabriel P., an independent travel-app developer based in Italy, plus the 687 Italy and 687 Japan travel-planner apps.
+
+Site: https://go687.com/ · About: https://go687.com/about/ · Contact: see the About page.
+
+## Italy guides
+- [Amalfi Coast without a car: ferries, buses and trains](https://go687.com/guides/amalfi-coast-without-car.html): How to visit the Amalfi Coast without a car: trains to Naples or Salerno, ferries to Positano and Amalfi, SITA buses, where to stay and a simple 2-day plan.
+- [Renting a car in Italy: documents, insurance, ZTL and tolls](https://go687.com/guides/car-rental-italy.html): Renting a car in Italy as a tourist: the documents you need (IDP), age and credit card rules, insurance, ZTL zones, motorway tolls, fuel and speed cameras.
+- [Cinque Terre by train: Cinque Terre Card prices and tips (2026)](https://go687.com/guides/cinque-terre-by-train.html): How to visit the Cinque Terre by train from La Spezia or Levanto: Cinque Terre Treno Card prices 2026, single tickets, timetables.
+- [Colosseum and Vatican Museums tickets: prices, booking and tips](https://go687.com/guides/colosseum-vatican-tickets.html): Colosseum and Vatican Museums tickets in 2026: official prices, which ticket to choose, when sales open, free days.
+- [Fiumicino Airport to Rome: Train, Taxi or Bus (2026)](https://go687.com/guides/fiumicino-airport-to-rome.html): How to get from Rome Fiumicino airport to the city center: Leonardo Express to Termini, the cheaper FL1 regional train.
+- [Florence in 2 days: itinerary, tickets and where to sleep](https://go687.com/guides/florence-2-days.html): Florence in 2 days: a day-by-day itinerary (Duomo, Uffizi, David, Ponte Vecchio, Oltrarno), what to book, Monday closures, where to sleep and how to arrive.
+- [Train Strike in Italy (Sciopero): What to Do](https://go687.com/guides/italy-train-strikes.html): Train strike in Italy? Guaranteed time bands and trains, refunds for Trenitalia and Italo, where to check strike dates and how to rebuild your travel day.
+- [Rome, Florence and Venice in 7 days: itinerary by train (2026)](https://go687.com/guides/rome-florence-venice-itinerary.html): A 7-day Italy itinerary for Rome, Florence and Venice by high-speed train: where to sleep, what to see each day.
+- [Italo vs Trenitalia: Which Train to Book in Italy (2026)](https://go687.com/guides/trenitalia-vs-italo.html): Trenitalia or Italo? Routes, stations, classes, prices and tips to choose the right high-speed train in Italy — and when only a regional train will do.
+- [How to Validate a Train Ticket in Italy (and Avoid Fines)](https://go687.com/guides/validate-train-ticket-italy.html): Which Italian train tickets need validation, how to stamp a paper ticket, check-in for digital regional tickets, and what to do if you forgot.
+- [Venice in 2 days: itinerary, where to sleep and how to get there](https://go687.com/guides/venice-2-days.html): Venice in 2 days: a day-by-day itinerary (St Mark's, Rialto, Murano, Burano, Dorsoduro), where to sleep.
+- [Venice access fee: who pays, dates, price and how to book](https://go687.com/guides/venice-access-fee.html): Venice access fee explained: €5 or €10, which days and hours, who is exempt (hotel guests, under 14), how to get the QR code and how to pay less.
+- [ZTL in Italy: How to Avoid Fines When Driving](https://go687.com/guides/ztl-italy.html): What a ZTL is in Italy, how to read the gates, how fines reach rental cars months later, and how to drive to your hotel without a ticket.
+
+## Japan guides
+- [Earthquake in Japan: What Tourists Should Do](https://go687.com/guides/earthquake-japan-tourists.html): What to do in an earthquake in Japan as a tourist: before, during and after, tsunami warnings, emergency numbers 110 and 119, and the apps to install.
+- [How to Ask for an English Menu in Japanese (+ Phrase Card)](https://go687.com/guides/english-menu-japan.html): Show this to the waiter: 英語のメニューはありますか？ (Eigo no menyū wa arimasu ka?) = “Do you have an English menu?” Pronunciation, likely answers and backup phrases.
+- [Japan Safety Alerts: Typhoons, Rain, Heat, Tsunami](https://go687.com/guides/japan-safety-alerts.html): Typhoons, heavy rain, heatstroke alerts, tsunami warnings and J-Alert in Japan explained for tourists: what each alert means.
+- [Japanese Restaurant Phrases for Tourists (with Pronunciation)](https://go687.com/guides/japanese-restaurant-phrases.html): Essential Japanese phrases for restaurants: getting a table, ordering, allergies, paying the bill and etiquette — with romaji, pronunciation and meaning.
+- [Is the JR Pass worth it in 2026? Prices and quick math](https://go687.com/guides/jr-pass-worth-it.html): Japan Rail Pass prices after the October 2026 increase, the simple math to know if it pays off, what it covers, Nozomi rules and cheaper alternatives.
+- [Kyoto in 2 days: the perfect itinerary for first-timers (2026)](https://go687.com/guides/kyoto-2-days.html): Kyoto in 2 days, hour by hour: Fushimi Inari, Kiyomizu-dera and Gion on day 1, Arashiyama and Kinkaku-ji on day 2 — with transport and where to stay.
+- [Mount Fuji day trip from Tokyo: bus, train and itinerary](https://go687.com/guides/mount-fuji-day-trip.html): How to visit Mount Fuji from Tokyo in one day: highway bus or Fuji Excursion train to Kawaguchiko, prices.
+- [Narita & Haneda to Tokyo: Trains, Buses, Prices (2026)](https://go687.com/guides/narita-haneda-to-tokyo.html): How to get from Narita and Haneda airports to central Tokyo: Skyliner vs Narita Express, airport buses, Keikyu and Monorail from Haneda, prices and times.
+- [Osaka in 2 days: itinerary, food and where to stay](https://go687.com/guides/osaka-2-days.html): Osaka in 2 days: Osaka Castle, Kuromon Market, Shinsekai and Dotonbori on day 1, Umeda or Universal Studios on day 2, plus transport.
+- [Shinkansen Guide for First-Time Visitors to Japan](https://go687.com/guides/shinkansen-guide.html): First Shinkansen trip? Which station to use (Shin-Osaka, not Osaka), travel times, Nozomi vs Hikari, JR Pass rules, big luggage and how to buy tickets.
+- [Suica and PASMO in Japan: the tourist guide (2026)](https://go687.com/guides/suica-pasmo-japan.html): How Suica and PASMO IC cards work in Japan, Welcome Suica vs regular cards, adding Suica to Apple Wallet, where they work, topping up and what to avoid.
+- [Tokyo in 3 days: first-timer itinerary and tips](https://go687.com/guides/tokyo-3-days.html): Tokyo in 3 days: Asakusa, Ueno and Skytree on day 1, Meiji Jingu, Harajuku, Shibuya and Shinjuku on day 2, Tsukiji, teamLab and Ginza on day 3.
+- [Tokyo, Kyoto and Osaka in 7 days: first-timer itinerary (2026)](https://go687.com/guides/tokyo-kyoto-osaka-itinerary.html): A 7-day Japan itinerary for first-timers: Tokyo, Kyoto, Nara and Osaka day by day, Shinkansen times, where to sleep and whether the JR Pass is worth it.
+- [Tokyo to Kyoto: Shinkansen, bus or flight? Times and prices](https://go687.com/guides/tokyo-to-kyoto.html): Tokyo to Kyoto: Nozomi Shinkansen in about 2h15, highway buses from ¥3,000 or flights via Osaka — times, prices, the Fuji seat and which to choose.
+
+## Hubs
+- [All guides](https://go687.com/guides/)
+- [Italy](https://go687.com/italy/)
+- [Japan](https://go687.com/japan/)
+- [Italian version](https://go687.com/it/)
+
+## Apps
+- [687 Italy: Travel Planner App for Italy (iPhone & Android)](https://go687.com/products/italy.html): 687 Italy Travel Planner for iPhone and Android: trains, flights, hotels, multi-city itineraries, weather replanning, Guardian alerts and Nearby.
+- [687 Japan: Travel Planner App for Japan (iPhone)](https://go687.com/products/japan.html): 687 Japan Travel Planner for iPhone: Shinkansen, flights, smart itinerary, earthquake alerts, Nearby, English menu help and translation, in 8 languages.
