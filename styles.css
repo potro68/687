@@ -109,3 +109,6 @@ img{max-width:100%;height:auto}
 .product-feature p,.feature-grid p,#whats-new p{font-size:12.5px!important;line-height:1.4!important;margin:0!important}
 }
 @media(max-width:700px){.benefit-grid{grid-template-columns:1fr 1fr!important;gap:10px!important}.benefit-card{padding:14px!important;border-radius:16px!important}.benefit-card strong{font-size:14.5px!important}.benefit-card>span{font-size:12.5px!important;line-height:1.4!important}}
+.guide-meta.byline{display:flex;align-items:center;gap:10px;margin-top:14px}
+.guide-meta.byline img{width:36px;height:36px;border-radius:50%;object-fit:cover;flex:none;border:2px solid rgba(255,255,255,.7)}
+.guide-meta.byline a{color:inherit;text-decoration:underline;text-underline-offset:2px}
