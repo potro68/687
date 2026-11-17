@@ -14,6 +14,7 @@ Site: https://go687.com/ · About: https://go687.com/about/ · Contact: see the 
 - [Train Strike in Italy (Sciopero): What to Do](https://go687.com/guides/italy-train-strikes.html): Train strike in Italy? Guaranteed time bands and trains, refunds for Trenitalia and Italo, where to check strike dates and how to rebuild your travel day.
 - [Rome, Florence and Venice in 7 days: itinerary by train (2026)](https://go687.com/guides/rome-florence-venice-itinerary.html): A 7-day Italy itinerary for Rome, Florence and Venice by high-speed train: where to sleep, what to see each day.
 - [Florence to Venice by train: times, prices and tips](https://go687.com/guides/florence-to-venice-train.html): Florence to Venice by train: Frecciarossa and Italo in about 2h05–2h15 from ~€20 booked early. Santa Lucia vs Mestre, tickets, regional trains and tips.
+- [Christmas in Italy 2026: best markets and where to go](https://go687.com/guides/christmas-in-italy.html): Christmas in Italy 2026: the best Christmas markets (Bolzano, Merano, Trento), Naples nativity street, Rome, what is open on 25 December and New Year tips.
 - [Italo vs Trenitalia: Which Train to Book in Italy (2026)](https://go687.com/guides/trenitalia-vs-italo.html): Trenitalia or Italo? Routes, stations, classes, prices and tips to choose the right high-speed train in Italy — and when only a regional train will do.
 - [How to Validate a Train Ticket in Italy (and Avoid Fines)](https://go687.com/guides/validate-train-ticket-italy.html): Which Italian train tickets need validation, how to stamp a paper ticket, check-in for digital regional tickets, and what to do if you forgot.
 - [Venice in 2 days: itinerary, where to sleep and how to get there](https://go687.com/guides/venice-2-days.html): Venice in 2 days: a day-by-day itinerary (St Mark's, Rialto, Murano, Burano, Dorsoduro), where to sleep.
@@ -36,6 +37,7 @@ Site: https://go687.com/ · About: https://go687.com/about/ · Contact: see the 
 - [Tokyo, Kyoto and Osaka in 7 days: first-timer itinerary (2026)](https://go687.com/guides/tokyo-kyoto-osaka-itinerary.html): A 7-day Japan itinerary for first-timers: Tokyo, Kyoto, Nara and Osaka day by day, Shinkansen times, where to sleep and whether the JR Pass is worth it.
 - [Tokyo to Kyoto: Shinkansen, bus or flight? Times and prices](https://go687.com/guides/tokyo-to-kyoto.html): Tokyo to Kyoto: Nozomi Shinkansen in about 2h15, highway buses from ¥3,000 or flights via Osaka — times, prices, the Fuji seat and which to choose.
 - [Tokyo to Hakone: Romancecar, Shinkansen and Freepass](https://go687.com/guides/tokyo-to-hakone.html): Tokyo to Hakone: Odakyu Romancecar from Shinjuku in ~80 min (¥2,470) or Shinkansen to Odawara. Is the Hakone Freepass (¥7,100) worth it? Route and tips.
+- [Cherry blossom in Japan 2027: dates, best spots, tips](https://go687.com/guides/cherry-blossom-japan-2027.html): Cherry blossom in Japan 2027: expected dates city by city (Tokyo, Kyoto, Osaka, Hokkaido), the best spots, when forecasts come out and what to book now.
 
 ## Hubs
 - [All guides](https://go687.com/guides/)
