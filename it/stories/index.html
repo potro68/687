@@ -60,7 +60,7 @@
 <h2 id="share">Racconta il tuo viaggio</h2>
 <p>Raccontaci il tuo viaggio e come ti ha aiutato l’app. Leggiamo ogni racconto e ne pubblichiamo una selezione, solo con il tuo nome. Possiamo accorciare o correggere il testo, ma senza mai cambiarne il senso.</p>
 <div class="story-ok" id="story-err" style="background:#fdecec;border-color:#f0a5a5"></div><div class="story-ok" id="story-ok">Grazie! Il tuo racconto è stato inviato. Lo leggiamo e ti avvisiamo se viene pubblicato.</div>
-<form class="story-form" id="story-form" action="https://formsubmit.co/potrocag@yahoo.it" method="POST" enctype="multipart/form-data">
+<form class="story-form" id="story-form" action="https://go687-stories.potrocag.workers.dev/" method="POST" enctype="multipart/form-data">
 <input type="hidden" name="_subject" value="Nuovo diario di viaggio 687 (IT)"/>
 <input type="hidden" name="_next" value="https://go687.com/it/stories/?sent=1#share"/>
 <input type="hidden" name="_template" value="table"/>
@@ -78,7 +78,7 @@
 if(location.search.indexOf("sent=1")>-1)ok.classList.add("show");
 f.addEventListener("submit",function(e){e.preventDefault();ok.classList.remove("show");er.classList.remove("show");b.disabled=true;b.textContent="Invio in corso…";
 var ctl=new AbortController();var tm=setTimeout(function(){ctl.abort()},60000);
-fetch(f.action.replace("formsubmit.co/","formsubmit.co/ajax/"),{method:"POST",body:new FormData(f),headers:{Accept:"application/json"},signal:ctl.signal})
+fetch(f.action,{method:"POST",body:new FormData(f),headers:{Accept:"application/json"},signal:ctl.signal})
 .then(function(r){return r.json().catch(function(){return {success:r.ok}})}).then(function(d){clearTimeout(tm);
 if(String(d.success)==="true"){f.reset();ok.classList.add("show");ok.scrollIntoView({behavior:"smooth",block:"center"})}else{throw new Error(d.message||"")}})
 .catch(function(x){clearTimeout(tm);er.textContent="Errore: il racconto non è stato inviato. Riprova tra qualche minuto."+(x&&x.message?" ("+x.message+")":"");er.classList.add("show");er.scrollIntoView({behavior:"smooth",block:"center"})})

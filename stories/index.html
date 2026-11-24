@@ -59,7 +59,7 @@
 <h2 id="share">Share your story</h2>
 <p>Tell us about your trip and how the app helped you. We read every story and publish a selection, with your first name only. We may shorten or correct the text, but we never change what you mean.</p>
 <div class="story-ok" id="story-err" style="background:#fdecec;border-color:#f0a5a5"></div><div class="story-ok" id="story-ok">Thank you! Your story has been sent. We will read it and let you know if it is published.</div>
-<form class="story-form" id="story-form" action="https://formsubmit.co/potrocag@yahoo.it" method="POST" enctype="multipart/form-data">
+<form class="story-form" id="story-form" action="https://go687-stories.potrocag.workers.dev/" method="POST" enctype="multipart/form-data">
 <input type="hidden" name="_subject" value="New 687 travel story (EN)"/>
 <input type="hidden" name="_next" value="https://go687.com/stories/?sent=1#share"/>
 <input type="hidden" name="_template" value="table"/>
@@ -77,7 +77,7 @@
 if(location.search.indexOf("sent=1")>-1)ok.classList.add("show");
 f.addEventListener("submit",function(e){e.preventDefault();ok.classList.remove("show");er.classList.remove("show");b.disabled=true;b.textContent="Sending…";
 var ctl=new AbortController();var tm=setTimeout(function(){ctl.abort()},60000);
-fetch(f.action.replace("formsubmit.co/","formsubmit.co/ajax/"),{method:"POST",body:new FormData(f),headers:{Accept:"application/json"},signal:ctl.signal})
+fetch(f.action,{method:"POST",body:new FormData(f),headers:{Accept:"application/json"},signal:ctl.signal})
 .then(function(r){return r.json().catch(function(){return {success:r.ok}})}).then(function(d){clearTimeout(tm);
 if(String(d.success)==="true"){f.reset();ok.classList.add("show");ok.scrollIntoView({behavior:"smooth",block:"center"})}else{throw new Error(d.message||"")}})
 .catch(function(x){clearTimeout(tm);er.textContent="Error: the story was not sent. Please try again in a few minutes."+(x&&x.message?" ("+x.message+")":"");er.classList.add("show");er.scrollIntoView({behavior:"smooth",block:"center"})})
