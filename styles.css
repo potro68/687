@@ -112,3 +112,4 @@ img{max-width:100%;height:auto}
 .guide-meta.byline{display:flex;align-items:center;gap:10px;margin-top:14px}
 .guide-meta.byline img{width:36px;height:36px;border-radius:50%;object-fit:cover;flex:none;border:2px solid rgba(255,255,255,.7)}
 .guide-meta.byline a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+.store-badge{display:inline-flex;align-items:center;line-height:0;text-decoration:none}.store-badge img{height:48px;width:auto;display:block}.store-badge.gp{overflow:hidden;height:48px;width:162px;justify-content:center}.store-badge.gp img{height:72px;max-width:none}.store-free{flex-basis:100%;font-size:12px;font-weight:800;letter-spacing:.3px;opacity:.85}.hero-actions .store-badge,.store-buttons .store-badge{margin:0}.store-buttons{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
